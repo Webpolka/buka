@@ -1,0 +1,384 @@
+.svaz {
+  padding: 50px 0 50px;
+  background-color: #0674b0;
+}
+.svaz__title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  line-height: 28px;
+  margin-bottom: 15px;
+}
+.svaz__text {
+  margin-bottom: 15px;
+
+}
+.svaz__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+h1 {
+  margin: 0 auto 40px;
+  color: #fff;
+  font: 20px Helvetica;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+form {
+  label {
+    position: relative;
+    display: block;
+    
+    input {
+      font: 18px Helvetica, Arial, sans-serif;
+      box-sizing: border-box;
+      border: 2px solid white;
+      color: white;
+      background: transparent;
+      display: block;
+      padding: 20px;
+      width: 450px;
+      height: 60px;
+      margin-bottom: 20px;
+      font-size: 18px;
+      outline: none;
+      transition: all 0.2s ease-in-out;
+      
+      &::placeholder {
+        transition: all 0.2s ease-in-out;
+        color: rgba(255,255,255,0.6);
+        font: 18px Helvetica, Arial, sans-serif;
+      }
+      
+      &:focus, &:active {
+        // border: 2px solid #1e5973;
+        box-shadow: inset 0 0 10px rgba(255,255,255,0.4);
+        color: rgba(255,255,255,1);
+      }
+      
+      &:focus, &:active, &.populated {
+        padding-top: 28px;
+        padding-bottom: 12px;
+        
+        &::placeholder {
+          color: transparent;
+        }
+        
+        & + span {
+          opacity: 1;
+          top: 10px;
+        }
+      }
+    }
+    
+    span {
+      color: rgba(255,255,255,0.6);
+      font: 13px Helvetica, Arial, sans-serif;
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      opacity: 0;
+      transition: all 0.2s ease-in-out;
+    }
+  }
+  
+  input[type="submit"] {
+    transition: all 0.2s ease-in-out;
+    font: 18px Helvetica, Arial, sans-serif;
+    border: none;
+    background: #1aaf75;
+    color: #fff;
+    padding: 16px 40px;
+    cursor: pointer;
+    
+    &:hover {
+      background: #109f67;
+    }
+  }
+}
+<section class="svaz">
+        <div class="container">
+          <div class="svaz__content">
+            <h2 class="svaz__title">Форма обратной связи</h2>
+            <p class="svaz__text">
+              Если вы решились с нашами услугами, и выбрали<br> 
+              подходящий для себя вариант с ценами, то закажите<br> 
+              у нас обратный звонок. И мы вам перезвоним<br> в ближайшее время"
+            </p>
+            <div class="svaz__inner">
+              <div class="svaz__inner-form">
+                <form>
+                  <label>
+                    <input class="vaz__input" id="fname" type="text" placeholder="Имя">
+                    <span>Ваше Имя</span>
+                  </label>
+                  <label>
+                    <input class="vaz__input" type="email" placeholder="Ящик">
+                    <span>Ваш Email</span>
+                  </label>
+                  <label>
+                    <input class="vaz__input" type="tel" placeholder="Телефон">
+                    <span>Ваш телефон</span>
+                  </label>
+                  <label>
+                    <input class="vaz__input" type="tel" placeholder="Сообщение">
+                    <span>Введите сообщение</span>
+                  </label>
+                
+                  <input class="svaz__btn" type="submit" value="Отрпавить!">
+                </form>
+              </div>
+              <div class="svaz__inner-maps">
+                <div style="position:relative;overflow:hidden;">
+                  <a href="https://yandex.ru/maps/21/vologda/?utm_medium=mapframe&utm_source=maps"
+                  style="color:#eee;font-size:12px;position:absolute;top:0px;">Вологда</a>
+                  <a href="https://yandex.ru/maps/21/vologda/?ll=39.891523%2C59.220496&utm_medium=mapframe&utm_source=maps&z=13" style="color:#eee;font-size:12px;position:absolute;top:14px;">Карта Вологды с улицами и номерами домов — Яндекс Карты</a>
+                  <iframe src="https://yandex.ru/map-widget/v1/?ll=39.891523%2C59.220496&z=13" 
+                  width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
+                  </iframe></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+<footer class="footer">
+        <div class="container">
+          <div class="footer__inner">
+    
+            <div class="footer__logo">
+              <h2 class="footer__logo-title">
+                Альвита
+              </h2>
+              <p class="footer__text">
+                Транспортная компания с<br>
+                многолетним стажем работы,<br> 
+                своим автопарком и<br> 
+                опытными водителями
+              </p>
+              <div class="footer__zvonok-block">
+                <p class="footer__zvonok-text">
+                  Остались вопросы? Звоните нам!
+                </p>
+                <a class="footer__zvonok" href="tel:+79115048305">+7(911) 504-83-05</a>
+              </div>
+            </div>
+    
+            <div class="footer__companiya">
+              <h2 class="footer__logo-title">
+                О компании
+              </h2>
+              <ul class="footer__companiya-menu">
+                <li class="footer__companiya-list">
+                  <a class="footer__companiya-item" href="#">Главная</a>
+                </li>
+                <li class="footer__companiya-list">
+                  <a class="footer__companiya-item" href="#">Услуги</a>
+                </li>
+                <li class="footer__companiya-list">
+                  <a class="footer__companiya-item" href="#">О компании</a>
+                </li>
+                <li class="footer__companiya-list">
+                  <a class="footer__companiya-item" href="#">Контакты</a>
+                </li>
+              </ul>
+            </div>
+    
+            <div class="footer__maps">
+              <h2 class="footer__logo-title">
+                Главный офис
+              </h2>
+              <div class="footer__maps-images">
+                <img class="footer__maps-img" src="img/footer/footer.jpg" alt="maps">
+              </div>
+              <div class="footer__maps-coordinaters">
+                <div class="footer__maps-coordinaters-inner">
+                  <img class="metka" src="img/footer/footer1.png" alt="metka">
+                  <p class="footer__maps-coordinaters-text">В городе Вологда,<br>
+                    по Вологодскому району.</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="footer__contakts">
+              <h2 class="footer__logo-title">
+                Контакты
+              </h2>
+              <div class="footer__contakts-tel">
+                <a class="footer__contakts-phone" href="tel:+79115048305">+7(911) 504-83-05</a><br>
+                <a class="footer__contakts-phone" href="tel:+79216841074">+7(921) 684-10-74</a>
+              </div>
+              <div class="footer__contakts-mail-block">
+                <a class="footer__contakts-mail" href="mailto:buka-roc-start@yandex.ru">buka-roc-start@yandex.ru</a>
+              </div>
+              <div class="footer__contakts-telegramm">
+                <a class="footer__contakts-telegramm-inner" href="#">
+                  <img class="footer__contakts-telegrams" src="img/footer/footer2.png" alt="telegramm">
+                  <p class="footer__contakts-telegramm-text">Написать нам в телеграмм!</p>
+                </a>
+              </div>
+            </div>
+    
+          </div>
+        </div>
+      </footer>
+.footer {
+  padding: 50px 0 50px;
+  background-color: #242c3f;
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo-title {
+  font-family: "Open Sans", sans-serif;
+  font-size: 26px;
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #edf0f3;
+}
+.footer__text {
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20pxd;
+  margin: 0 0 15px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 15px;
+  color: #dfdfdf;
+}
+.footer__zvonok-text {
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 15px;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 17px;
+  color: #dfdfdf
+}
+.footer__zvonok {
+  padding: 5px 20px 5px 20px;
+  transition: .3s;
+  background: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  border: 1px solid rgba(255, 255, 255, .8);
+  border-radius: 30px;
+  color: rgba(255, 255, 255, .8);
+}
+.footer__zvonok:hover {
+  color: #242c3f;
+  background-color: rgba(255, 255, 255, .8);
+}
+.footer__companiya-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #e4e4e4;
+}
+.footer__maps-coordinaters-inner {
+  display: flex;
+  align-items: center;
+}
+.footer__maps-img {
+  margin-bottom: 10px;
+}
+.metka {
+  width: 25px;
+  height: 25px;
+}
+.footer__maps-coordinaters-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #e4e4e4;
+  cursor: default;
+  transition: .1s linear;
+  margin-left: 15px;
+}
+.footer__contakts-phone {
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, .97);
+  text-decoration: none;
+}
+.footer__contakts-mail-block {
+  margin-top: 10px;
+}
+.footer__contakts-mail {
+  transition: all .5s;
+  text-decoration: underline;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #e4e4e4;
+}
+.footer__contakts-mail:hover {
+  text-decoration: none;
+}
+.footer__contakts-telegramm-inner {
+  display: flex;
+  align-items: center;
+}
+.footer__contakts-telegramm {
+  margin-top: 15px;
+}
+.footer__contakts-telegrams {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.footer__contakts-telegramm-text {
+  transition: all .5s;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 15px;
+  color: #e4e4e4;
+  text-decoration: none;
+  font-size: 13px;
+}
+.footer__contakts-telegramm-text:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+<section>
+    <div class="css-slider-wrapper">
+      <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+      <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+      <div class="slider-pagination">
+        <label for="slider_1" class="page1"></label>
+        <label for="slider_2" class="page2"></label>
+      </div>
+      <div class="next control">
+        <label for="slider_1" class="numb1"><i class="fa fa-arrow-circle-right"></i></label>
+        <label for="slider_2" class="numb2"><i class="fa fa-arrow-circle-right"></i></label>
+        <label for="slider_3" class="numb3"><i class="fa fa-arrow-circle-right"></i></label>
+        <label for="slider_4" class="numb4"><i class="fa fa-arrow-circle-right"></i></label>
+      </div>
+      <div class="previous control">
+        <label for="slider_1" class="numb1"><i class="fa fa-arrow-circle-left"></i></label>
+        <label for="slider_2" class="numb2"><i class="fa fa-arrow-circle-left"></i></label>
+      </div>
+      <div class="slider slide1">
+        <div>
+          <img class="slider__img" src="img/slider/slider1.png" alt="slider1">
+      </div>
+      <div class="slider slide2">
+        <div>
+          <img class="slider__img" src="img/slider/slider2.png" alt="slider1">
+      </div>
+    </div>
+  </section>

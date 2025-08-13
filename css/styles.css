@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Circe-Bold';
+  src: url('../fonts/Circe-Bold') format('woff2'),
+    url('../fonts/Circe-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;	
+}
+body {
+  font-family: 'Lato', sans-serif;
+}
+h1 h2 h3 h4 h5 header section footer {
+  margin: 0;
+  padding: 0;
+}
