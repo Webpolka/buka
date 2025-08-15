@@ -493,7 +493,7 @@ BIKE_PARK SECTION
   color: var(--black);
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 1.875rem;
+  margin-bottom: 4.6875rem;
 }
 
 .bike-park_tile {
@@ -1021,7 +1021,7 @@ HOW IT COAST
   font-weight: 700;
   color: var(--black);
   text-align: center;
-  margin-bottom: 1.875rem;
+  margin-bottom: 4.375rem;
 }
 
 .itcost {
@@ -1458,7 +1458,7 @@ INCREASE INCOME SECTION
   color: var(--black);
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 5rem;
+  margin-bottom: 4.375rem;
 }
 
 .section-map_iframe {
@@ -1670,7 +1670,7 @@ MONSTERS PARK BLOCK 15
   line-height: 150%;
   color: white;
   font-weight: 400;
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .partners-card {
@@ -1715,7 +1715,7 @@ RENTAL AND REDEMPTION SECTION
   color: var(--black);
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 2.8125rem;
+  margin-bottom: 4.375rem;
 }
 
 .redemption {
@@ -1792,6 +1792,7 @@ RENTAL AND REDEMPTION SECTION
   top: 0;
   left: 0;
   width: 64%;
+  padding-inline: 15px;
 }
 
 .redemption_col .blue-item {
@@ -1800,7 +1801,7 @@ RENTAL AND REDEMPTION SECTION
 }
 
 .redemption .black-item {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
   letter-spacing: 0px;
   line-height: 1.8125rem;
   color: #ffffff;
@@ -1839,7 +1840,7 @@ RENTAL AND REDEMPTION SECTION
 }
 
 .redemption .blue-item {
-  font-size: 1.625rem;
+  font-size: 1.5rem;
   letter-spacing: 0px;
   line-height: 1.8125rem;
   color: #ffffff;
@@ -1911,6 +1912,10 @@ REVIEWS SECTION
   width: 5.75rem;
   height: 5.75rem;
   overflow: hidden;
+  border-radius: 50%;
+}
+
+.review-slide_avatar img {
   border-radius: 50%;
 }
 
@@ -3005,7 +3010,7 @@ form input[type=submit]:hover {
 @media (max-width: 710px) {
   .redemption_grid .black-item small,
   .redemption_grid .black-item strong {
-    line-height: 125%;
+    line-height: 105%;
   }
 
   .redemption .black-item {
