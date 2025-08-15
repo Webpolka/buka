@@ -326,7 +326,7 @@ html {
 
 body {
   text-wrap: balance;
-  min-width: 20rem;
+  min-width: 9.375rem;
 }
 
 * {
@@ -1803,7 +1803,7 @@ RENTAL AND REDEMPTION SECTION
 .redemption .black-item {
   font-size: 1.5rem;
   letter-spacing: 0px;
-  line-height: 1.8125rem;
+  line-height: 120%;
   color: #ffffff;
   font-weight: 800;
   display: -webkit-box;
@@ -1829,6 +1829,7 @@ RENTAL AND REDEMPTION SECTION
   letter-spacing: 0;
   font-weight: 200;
   text-align: center;
+  line-height: 160%;
 }
 
 .redemption .black-item strong {
@@ -2864,7 +2865,7 @@ form input[type=submit]:hover {
 
   .section-bike-park .section-title {
     font-size: 2.25rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 2.8125rem;
   }
 
   .bike-park_tile .tile-accent {
@@ -2919,7 +2920,7 @@ form input[type=submit]:hover {
 
   .section-cost .section-title {
     font-size: 2.25rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 2.8125rem;
   }
 
   .section-increase-income {
@@ -2994,7 +2995,7 @@ form input[type=submit]:hover {
   .section-redemption h2,
   .section-redemption .section-title {
     font-size: 2.25rem;
-    margin-bottom: 2.1875rem;
+    margin-bottom: 2.8125rem;
   }
 
   .reviews-header {
@@ -3092,7 +3093,7 @@ form input[type=submit]:hover {
 
   .section-bike-park .section-title {
     font-size: 1.75rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2.1875rem;
   }
 
   .bike-park_tile {
@@ -3154,7 +3155,7 @@ form input[type=submit]:hover {
   }
 
   .helps .section-title {
-    font-size: 1.625rem;
+    font-size: 1.5625rem;
   }
 
   .helps-tile_bird {
@@ -3171,7 +3172,11 @@ form input[type=submit]:hover {
 
   .section-cost .section-title {
     font-size: 1.75rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.875rem;
+  }
+
+  .itcost_panel {
+    font-size: 14px;
   }
 
   .increase-tile {
@@ -3180,7 +3185,7 @@ form input[type=submit]:hover {
 
   .section-map .section-title {
     font-size: 1.5rem;
-    margin-bottom: 3.125rem;
+    margin-bottom: 2.1875rem;
   }
 
   .section-map_iframe iframe {
@@ -3215,7 +3220,7 @@ form input[type=submit]:hover {
   .section-redemption h2,
   .section-redemption .section-title {
     font-size: 1.75rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 2.5rem;
   }
 
   .redemption_grid {
@@ -3251,6 +3256,10 @@ form input[type=submit]:hover {
     height: 1.6875rem;
   }
 
+  .review-slide_content p {
+    font-size: 14px;
+  }
+
   .swiper-navigation {
     width: 7.5rem;
   }
@@ -3282,6 +3291,10 @@ form input[type=submit]:hover {
   .cookies-popup-ht15zxx.cookies-popup_show-ht15zxx {
     bottom: 0;
   }
+
+  .footer p {
+    font-size: 14px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -3311,7 +3324,7 @@ form input[type=submit]:hover {
   }
 
   .redemption .black-item strong {
-    font-size: 1.3125rem;
+    font-size: 1.1875rem;
   }
 
   .redemption .blue-item {
@@ -3329,7 +3342,7 @@ form input[type=submit]:hover {
 
 @media (max-width: 440px) {
   .section-bike-park .section-title {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
   }
 
   .bike-park_tile .tile-accent {
@@ -3341,16 +3354,16 @@ form input[type=submit]:hover {
   }
 
   .helps-tile_title {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
   }
 
   .helps-tile_description p {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 
   .helps .col-item-btn .helps_btn {
     --btn-radius: 16px;
-    font-size: 1.625rem;
+    font-size: 1.4375rem;
     min-height: 3.75rem;
   }
 
@@ -3369,7 +3382,7 @@ form input[type=submit]:hover {
   }
 
   .itcost_rate strong {
-    font-size: 2rem;
+    font-size: 1.5625rem;
   }
 
   .itcost_price {
@@ -3385,7 +3398,8 @@ form input[type=submit]:hover {
   }
 
   .section-increase-income .section-title {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
     margin-bottom: 1.25rem;
   }
 
@@ -3394,7 +3408,7 @@ form input[type=submit]:hover {
   }
 
   .increase-tile_header p {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 
   .section-map .section-title {
@@ -3402,7 +3416,7 @@ form input[type=submit]:hover {
   }
 
   .section-monsters .section-title {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
   }
 
   .redemption .black-item {

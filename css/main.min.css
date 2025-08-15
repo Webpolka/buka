@@ -225,7 +225,7 @@ html {
 
 body {
   text-wrap: balance;
-  min-width: 20rem;
+  min-width: 9.375rem;
 }
 
 * {
@@ -403,18 +403,18 @@ BIKE_PARK SECTION
 @media (max-width: 768px) {
   .section-bike-park .section-title {
     font-size: 2.25rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 2.8125rem;
   }
 }
 @media (max-width: 576px) {
   .section-bike-park .section-title {
     font-size: 1.75rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 2.1875rem;
   }
 }
 @media (max-width: 440px) {
   .section-bike-park .section-title {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
   }
 }
 
@@ -817,7 +817,7 @@ HELPS SECTION
 }
 @media (max-width: 576px) {
   .helps .section-title {
-    font-size: 1.625rem;
+    font-size: 1.5625rem;
   }
 }
 .helps .accent-rects:after {
@@ -969,7 +969,7 @@ HELPS SECTION
 }
 @media (max-width: 440px) {
   .helps-tile_title {
-    font-size: 1.375rem;
+    font-size: 1.25rem;
   }
 }
 .helps-tile_description {
@@ -990,7 +990,7 @@ HELPS SECTION
 }
 @media (max-width: 440px) {
   .helps-tile_description p {
-    font-size: 1rem;
+    font-size: 0.875rem;
   }
 }
 .helps-tile_list ul {
@@ -1083,7 +1083,7 @@ HELPS SECTION
 @media (max-width: 440px) {
   .helps .col-item-btn .helps_btn {
     --btn-radius: 16px;
-    font-size: 1.625rem;
+    font-size: 1.4375rem;
     min-height: 3.75rem;
   }
 }
@@ -1115,13 +1115,13 @@ HOW IT COAST
 @media (max-width: 768px) {
   .section-cost .section-title {
     font-size: 2.25rem;
-    margin-bottom: 1.5625rem;
+    margin-bottom: 2.8125rem;
   }
 }
 @media (max-width: 576px) {
   .section-cost .section-title {
     font-size: 1.75rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: 1.875rem;
   }
 }
 
@@ -1250,7 +1250,7 @@ HOW IT COAST
 }
 @media (max-width: 440px) {
   .itcost_rate strong {
-    font-size: 2rem;
+    font-size: 1.5625rem;
   }
 }
 .itcost_price {
@@ -1309,6 +1309,11 @@ HOW IT COAST
 @media (max-width: 992px) {
   .itcost_panel {
     font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .itcost_panel {
+    font-size: 14px;
   }
 }
 .itcost_form {
@@ -1442,7 +1447,8 @@ INCREASE INCOME SECTION
 }
 @media (max-width: 440px) {
   .section-increase-income .section-title {
-    font-size: 1.25rem;
+    font-size: 1rem;
+    font-weight: 500;
     margin-bottom: 1.25rem;
   }
 }
@@ -1535,7 +1541,7 @@ INCREASE INCOME SECTION
 }
 @media (max-width: 440px) {
   .increase-tile_header p {
-    font-size: 1rem;
+    font-size: 0.9375rem;
   }
 }
 .increase-tile_header .color-accent,
@@ -1647,7 +1653,7 @@ INCREASE INCOME SECTION
 @media (max-width: 576px) {
   .section-map .section-title {
     font-size: 1.5rem;
-    margin-bottom: 3.125rem;
+    margin-bottom: 2.1875rem;
   }
 }
 @media (max-width: 440px) {
@@ -1712,7 +1718,7 @@ MONSTERS PARK BLOCK 15
 }
 @media (max-width: 440px) {
   .section-monsters .section-title {
-    font-size: 1.125rem;
+    font-size: 1.0625rem;
   }
 }
 
@@ -1988,14 +1994,14 @@ RENTAL AND REDEMPTION SECTION
   .section-redemption h2,
   .section-redemption .section-title {
     font-size: 2.25rem;
-    margin-bottom: 2.1875rem;
+    margin-bottom: 2.8125rem;
   }
 }
 @media (max-width: 576px) {
   .section-redemption h2,
   .section-redemption .section-title {
     font-size: 1.75rem;
-    margin-bottom: 1.875rem;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -2091,7 +2097,7 @@ RENTAL AND REDEMPTION SECTION
 .redemption .black-item {
   font-size: 1.5rem;
   letter-spacing: 0px;
-  line-height: 1.8125rem;
+  line-height: 120%;
   color: #ffffff;
   font-weight: 800;
   display: flex;
@@ -2136,6 +2142,7 @@ RENTAL AND REDEMPTION SECTION
   letter-spacing: 0;
   font-weight: 200;
   text-align: center;
+  line-height: 160%;
 }
 @media (max-width: 710px) {
   .redemption .black-item small {
@@ -2161,7 +2168,7 @@ RENTAL AND REDEMPTION SECTION
 }
 @media (max-width: 510px) {
   .redemption .black-item strong {
-    font-size: 1.3125rem;
+    font-size: 1.1875rem;
   }
 }
 .redemption .blue-item {
@@ -2326,6 +2333,11 @@ REVIEWS SECTION
 .review-slide_content p {
   font-size: 1rem;
   font-weight: 200;
+}
+@media (max-width: 576px) {
+  .review-slide_content p {
+    font-size: 14px;
+  }
 }
 .review-slide_footer {
   border-top: 1px solid rgba(0, 0, 0, 0.2);
@@ -2911,5 +2923,10 @@ form input[type=submit]:hover {
   font-size: 18px;
   line-height: 28px;
   color: #fff;
+}
+@media (max-width: 576px) {
+  .footer p {
+    font-size: 14px;
+  }
 }
 /*# sourceMappingURL=main.min.css.map */
