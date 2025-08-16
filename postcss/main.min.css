@@ -2776,11 +2776,11 @@ form input[type=submit]:hover {
   .itcost_rate {
     --rate-radius: 24px;
     height: 5rem;
-    padding-inline: 1.5625rem;
+    padding-inline: 0.9375rem;
   }
 
   .itcost_rate strong {
-    font-size: 1.75rem;
+    font-size: 1.5625rem;
   }
 
   .itcost_price {
@@ -3382,7 +3382,7 @@ form input[type=submit]:hover {
   }
 
   .itcost_rate strong {
-    font-size: 1.5625rem;
+    font-size: 1.4375rem;
   }
 
   .itcost_price {
